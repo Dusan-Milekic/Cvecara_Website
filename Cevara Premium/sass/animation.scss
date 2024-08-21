@@ -1,0 +1,12 @@
+.cards {
+  transition: 1.2s;
+}
+
+.cards:hover {
+  background-color: rgb(200, 36, 44);
+
+  transition: 1.2s;
+  * {
+    filter: brightness(0) invert(1);
+  }
+}
